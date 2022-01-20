@@ -31,3 +31,9 @@ print(f"The evaluated result is: {res}")
 # Method #2: Using eval()
 eva_str = eval(test_str)
 print(f"Using eval(): {eva_str}")
+
+
+"""
+Another solution to this problem
+https://www.tutorialspoint.com/program-to-evaluate-one-mathematical-expression-without-built-in-functions-in-python
+"""
