@@ -19,3 +19,21 @@ print(f"Accessing element using get: {Dict.get(1)}")
 # Creation using Dictionary comprehension
 myDict = {x: x*2 for x in [1, 2, 3, 4, 5]}
 print(myDict)
+
+
+
+"""
+ Joining two dictionaries using ** or |
+ see example below
+"""
+
+first_dict = {"first_name": "John", "last_name": "Doe"}
+second_dict = {"eduction_level": "PhD", "school_name": "WITS"}
+
+# Joining using **
+dicts = {**first_dict, **second_dict}
+print(dicts)
+
+# Joining using |
+_dicts = first_dict | second_dict
+print(_dicts)
