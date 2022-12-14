@@ -9,6 +9,7 @@ words = word.split()[::-1]
 reversed_word = []
 
 for w in words:
+
   # append reverse words
   reversed_word.append(w)
 

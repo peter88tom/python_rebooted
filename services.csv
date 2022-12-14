@@ -1,0 +1,10 @@
+x = 1
+y = 0
+z = 0
+result = 2
+
+try:
+	z = z+1
+	result = x/y
+	z = z+1
+except
