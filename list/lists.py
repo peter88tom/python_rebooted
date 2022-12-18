@@ -1,3 +1,16 @@
+"""
+1. A list is unordered collection of items
+2. Use square bracket [] to access list element by index. The first element has an index 0
+3. Use negative index to access the list from the end of the list. The last element has index -1
+4. Use list[index] = new_value to modify an element from a list
+5. Use append() to add new element to the end of the list
+6. Use insert() to add a new element at a position in a list
+7. Use pop() to remove an element from a list and return that element
+8. Use remove() to remove element from a list
+
+"""
+
+
 l1 = ["Math", "Physics", "chemistry", 2000, 50000]
 
 print("Original list")
