@@ -47,3 +47,18 @@ This example uses enumerate() function with the index that start from one.
 """
 for index, country in enumerate(countries,1):
     print(f"{index}: {country}")
+
+
+
+
+"""
+3. Find the index of an element in a list
+
+To find the index of an element in a list, you can use index() function 
+
+If you attempt to find an element that does not exist in the list you will get an error, to fix
+the issue you can use the "in" operator which will return true if exist and false if does not exist
+"""
+
+index_of_tz = countries.index('Tanzania')
+print(index_of_tz)
