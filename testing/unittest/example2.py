@@ -31,6 +31,7 @@ class SumTwoNumberTest(unittest.TestCase):
 
 
     def tearDown(self):
+        # Called after each test has run
         print("TearDown Called...")
 
     def test_sum_two_number_1(self):
