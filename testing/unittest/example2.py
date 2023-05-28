@@ -6,6 +6,9 @@
 
  - The tearDown function will be called after the test
 
+ The "setUp" function used to prepare the pre-required to make sure are available before calling the test function and
+  tearDown function is used to clean up those pre-required before moving to the next test.
+
 """
 
 import unittest
