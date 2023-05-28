@@ -1,4 +1,4 @@
-class employee:
+class Employee:
 
   def __init__(self, first_name, last_name, salary):
     self.first_name = first_name
@@ -12,7 +12,7 @@ class employee:
 
 
 # Class developer will inheriting first_name, last_name and salary from employee class
-class Developer(employee):
+class Developer(Employee):
 
   def __init__(self, first_name, last_name, salary, programming_languages):
     super().__init__(first_name, last_name, salary)
@@ -22,7 +22,7 @@ class Developer(employee):
     self.prog_langs += [lang]
 
 # Accessing employee class
-employee1 = employee("Petro", "Thomas", 550000)
+employee1 = Employee("John", "Collins.", 550000)
 print(f"{employee1.first_name} this year salary is R {employee1.salary}")
 
 # Use change salary to increase salary for next year

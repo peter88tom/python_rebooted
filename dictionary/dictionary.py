@@ -5,7 +5,7 @@ Dictionary is key value array
 student = {"first_name": "Zara", "age": "14", "college": "Zara College"}
 print(student)
 
-print("You access value using keys")
+prin("You access value using keys")
 print(student["first_name"])
 print("\n")
 

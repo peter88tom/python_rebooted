@@ -35,7 +35,6 @@ See example below
 for country in enumerate(countries):
     print(country)
 
-
 # To access the index you can unpack the tuple
 for index, country in enumerate(countries):
     print(f"{index}: {country}")
